@@ -1,24 +1,18 @@
-/* 
-    GENERICS
-*/
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container {
-  width: 1200px;
-  margin: auto auto;
-  background-color: #daa520;
-  justify-content: space-between;
-  align-items: center;
+header {
+  background-color: #add8e6;
 }
 
-header {
-  height: 60px;
-  background-color: #add8e6;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #daa520;
+  justify-content: space-between;
 }
 
 .logo,
@@ -27,21 +21,18 @@ li {
   padding: 10px;
 }
 
-ul {
-  list-style: none;
-  width: 100%;
-  justify-content: center;
+.flex {
+  display: flex;
 }
 
-/* 
-    UTILITIS
-*/
 .debug {
   border: 2px dashed black;
 }
 
-.flex {
-  display: flex;
+ul {
+  list-style: none;
+  width: 100%;
+  justify-content: center;
 }
 
 .login {
